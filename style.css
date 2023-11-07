@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(56, 105, 56);
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(243, 255, 242);
+    font-family: montserrat;
+    font-size: 30px;
+
+}
+
+
+footer{
+    /* Nessas 2 abaixo onde fica a magica, a 'position:absolute'' serve para a div em relação ao posicionamento do seu elemento pai, já o bottom:0' puxa a div para 0px a partir da linha inferior do elemento pai*/
+    position: absolute;
+    bottom: 0;
+    background-color:#706d6d;
+    width: 100%; /* tamanho total no eixo x (largura)*/
+    height: 2.5rem; /* tamanho do seu footer */
+    font-size: 40%;
+  }
+  .fixed-background {
+    position:;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 30%;
+
+}
+
+img {
+    align-items: center;
+    height: auto;
+    width: auto;
+    min-width: 30%;
+    min-height: 30%;
+}
+
